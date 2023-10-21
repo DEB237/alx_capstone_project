@@ -23,7 +23,8 @@ Users can navigate through the website using the menu and interact with differen
 
 ## Screenshots or Demo
 
-![Portfolio Website Screenshot](/path/to/screenshot.png)
+![Figma design](figma.design.jpg)
+![Flowchart](flowchart.jpg)
 
 Demo: Live Demo (https://yourportfolio.com/)
 

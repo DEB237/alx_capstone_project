@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='style.css'>
+        <script src="./script.js"></script>  
+        <title>My Personal Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+        </head>
+        <body>
+            <!--header site------------------------------------------------->
+            <header> 
+                <div class="container">
+                    <nav>
+                        <a href="#" id="home" class="logo"><span>B</span>ERNIE.</a>
+                        <ul id="sidemenu">
+                            <li><a href="#header" class="nav-link" > HOME</a></li>
+                            <li><a href="#about" class="nav-link" > ABOUT</a></li>
+                            <li><a href="#skills" class="nav-link" > SKILLS</a></li>
+                            <li><a href="#projects" class="nav-link" > PROJECTS</a></li>
+                            <li><a href="#contacts" class="nav-link" > CONTACT</a></li>
+                            <i class='bx bx-x' onclick="closemenu()"></i>
+                        </ul>
+                        <i class='bx bx-menu' onclick="openmenu()" ></i>
+                    </nav>
+                    <div class="row-A">
+                        <div class="col-a">
+                            <img src="1.jpg" class="image img1" alt="">
+                        </div>
+                        <div class="header-text col-b">
+                            <h1>Hi, I'm <span>Dounla Bernie</span></h1>
+                            <h1>And I'm <span id="typewriter"></span>
+                                <span id="cursor">|</span></h2> 
+                            <div class="btns">
+                                <a href="EnrickaBernie_Dounla_CV.pdf" download class="btn btn1">Download CV</a>
+                                <a href="#contacts"  class="btn btn1">Hire Me</a>
+                            </div>    
+                        </div>
+                    </div>
+                    
+                    </div>   
+                </div>    
+            </header>
+            <main>
+                <!--About Me------------------------------------------------->
+                <section id="about" class="section-about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-1">
+                                <img src="2.jpg" class="image img2"alt="">
+                            </div>
+                            <div class="col-2">
+                                <h1 class="subtitle">About Me</h1>
+                                <p>I am Dounla Bernie, an ALX (Intro to SE) graduate. I am a cameroonian and live in cameroon. I am passoniate about design and development and I'm a perfectionist when it concerns that domain—working on a design until it's standardly beautiful.<br>You can trust me!😉</p>    
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Languages</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul class="skill-b0x">
+                                        <li class="skill-title">HTML<div class="skill-bar">
+                                            <span class="skillper1">
+                                                <span class="tooltip">85%</span>
+                                            </span>
+                                        </div></li>
+                                        <li class="skill-title">CSS<div class="skill-bar">
+                                            <span class="skillper2" >
+                                            <span class="tooltip">70%</span>
+                                            </span>
+                                        </div></li>
+                                        <li class="skill-title">JavaScript<div class="skill-bar">
+                                            <span class="skillper3">
+                                                <span class="tooltip">35%</span>
+                                            </span>
+                                        </div></li>
+                                        <li class="skill-title">Python<div class="skill-bar">
+                                            <span class="skillper4">
+                                                <span class="tooltip">50%</span>
+                                            </span>
+                                        </div></li>
+                                        <li class="skill-title">SQL<div class="skill-bar">
+                                            <span class="skillper5">
+                                                <span class="tooltip">80%</span>
+                                            </span>
+                                        </div></li>    
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="experience">
+                                    <ul class="experience">
+                                        <li>Database manager at Le Cenacle Academic Complex</li>
+                                        <li>ALX projects</li>
+                                        <li>Open Dreams Hackathon</li>
+                                        <li>Coding Bootcamp</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span class="educ">2023 to present</span><br>ALX Introduction to Software Engineer</li>
+                                        <li><span class="educ">2023 to 2028</span><br>Bachelor of Science in Computer Science-University of the People </li>
+                                        <li><span class="educ">2024 to 2028</span><br>Bachelor of science in Mechatronics-Technical University of Applied Sciences</li>
+                                    </ul>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </section>
+                <!--skills------------------------------------------------->
+                <section id="skills" class="section-skills">
+                    <div class="container">
+                        <h1 class="subtitle">My Skills</h1>
+                        <div class="services-list">
+                            <div>
+                                <i class='bx bx-code-alt'></i>
+                                <h2>Web development</h2>
+                                <p>Develop web sites and applications with the CSS, HTML and Javascript</p>
+                                <a href="#projects">Learn more</a>
+                            </div>
+                            <div>
+                                <i class='bx bx-crop'></i>
+                                <h2>UI/UX designer</h2>
+                                <p>Create beautiful designs and ensure a great user exerience to users</p>
+                                <a href="#projects">Learn more</a>
+                            </div>
+                            <div>
+                                <i class='bx bx-data' ></i>
+                                <h2>SQL developer</h2>
+                                <p>Use SQL to create and manage database systems</p>
+                                <a href="#projects">Learn more</a>
+                            </div>
+                            <div>
+                                <i class='bx bx-book-reader'></i>
+                                <h2>Computer Science Tutor</h2>
+                                <p>Teach Computer Science in a couple of secondary schools</p>
+                                <a href="#projects">Learn more</a>
+                            </div>
+                        </div>
+                    </div>    
+                </section>
+                <!--Projects------------------------------------------------->
+                <section id="projects" class="section-project">
+                    <div class="container">
+                        <h1 class="subtitle">My Projects</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="wd.jpg" alt="">
+                                <div class="layer">
+                                    <h3>Web designs</h3>
+                                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="uix.jpg" alt="">
+                                <div class="layer">
+                                    <h3>UIX designs</h3>
+                                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                                </div>
+                            </div>    
+                            <div class="work">
+                                <img src="sql.avif" alt="">
+                                <div class="layer">
+                                    <h3>Database management systems</h3>
+                                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="tutor.jpg" alt="">
+                                <div class="layer">
+                                    <h3>Tutoring</h3>
+                                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                                </div>
+                            </div>
+                        </div>    
+                         <a href="#contacts" class="btn btn2">See more</a>
+                    </div>     
+                </section>
+                <!--Contact me-------------------------------------------------->
+                <section id="contacts" class="section-contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-info">
+                                <h1 class="subtitle">Contact Me</h1>
+                                <p><i class='bx bx-envelope'></i>dounlabernie@gmail.com</p>
+                                <p><i class='bx bx-phone'></i>+237675283115</p>
+                                <div class="social-icons">
+                                    <a href="https://web.facebook.com/bernie.dounla"><i class='bx bxl-facebook'></i></a>
+                                    <a href="https://instagram.com/berniedounla?igshid=OGQ5ZDc2ODK2ZA=="><i class='bx bxl-instagram'></i></a>
+                                    <a href="https://twitter.com/BernieDounla"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://github.com/DEB237"><i class='bx bxl-github'></i></a>
+                                    <a href="https://www.linkedin.com/in/dounla-enricka-bernie-9985aa248/"><i class='bx bxl-linkedin'></i></a>
+                                    <a href="https://wa.me/+237675283115"><i class='bx bxl-whatsapp'></i></a>
+                                </div>
+                            </div>
+                            <div class="contact-msg">
+                                <h1 class="subtitle">Send me a message</h1>
+                                <form name="submit-to-google-sheet" id="myform">
+                                    <input type="text" id="myemail" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>            
+                </section>
+            </main>
+            <footer>
+                <div class="copyright">
+                  <p>© made by Bernie</p>
+
+                </div>
+            </footer>
+        </body>
+</html> 
