@@ -26,7 +26,7 @@ Users can navigate through the website using the menu and interact with differen
 ![Figma design](figma.design.jpg)
 ![Flowchart](flowchart.jpg)
 
-Demo: Live Demo (https://yourportfolio.com/)
+Demo: Live Demo [![Demo video](thumbnail.png)](Demo Video.mp4)
 
 ## Roadmap and Future Enhancements
 In the future I plan to : 
@@ -39,6 +39,3 @@ In the future I plan to :
 ## Contact Information
 - Name: Dounla Enricka Bernie
 - Email: dounlabernie@gmail.com
-- Portfolio: Your Portfolio Website (https://yourportfolio.com/)
-- LinkedIn: Your LinkedIn Profile (https://www.linkedin.com/in/yourprofile)
-- GitHub: Your GitHub Profile (https://github.com/DEB237)
