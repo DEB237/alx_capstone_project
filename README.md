@@ -26,7 +26,7 @@ Users can navigate through the website using the menu and interact with differen
 ![Figma design](figma.design.jpg)
 ![Flowchart](flowchart.jpg)
 
-Demo: Live Demo [![Demo video](thumbnail.png)](Demo Video.mp4)
+Demo: Live Demo [![Demo video](thumbnail.png)]( https://youtu.be/J7SOATfdUKk?si=e8sdxdD6sqEShVRZhttps://youtu.be/J7SOATfdUKk?si=e8sdxdD6sqEShVRZ)
 
 ## Roadmap and Future Enhancements
 In the future I plan to : 
